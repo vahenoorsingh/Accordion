@@ -1,0 +1,33 @@
+body{
+    font-family: sans-serif;
+}
+#container{
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 70px;
+    border-radius: 20px;
+}
+.question{
+    position: relative;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+.answer{
+    display: none;
+    font-size: 1.1rem;
+    padding: 15px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+span{
+    position: absolute;
+    right: 20px;
+}
+.answer.open{
+    display: block;
+}
